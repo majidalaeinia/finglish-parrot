@@ -22,6 +22,7 @@ curl -XPOST --location 'http://localhost:8080/api/v1/slugify' \
 }'
 ```
 ##### Response:
+> HTTP Status Code: 200
 ```json
 {
     "slugified_message": "slam-chtory"
