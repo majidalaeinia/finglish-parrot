@@ -11,6 +11,18 @@ You can use docker to run the project:
 docker compose up -d
 ```
 
+Consider the `ngrok` container and set these values on your `.env` file from [your ngrok profile](http://ngrok.com/):
+```
+NGROK_DOMAIN=
+NGROK_AUTHTOKEN=
+```
+
+Also consider the divar authorization related fields on your `.env` file:
+```
+DIVAR_AUTHENTICATION=
+DIVAR_X_API_KEY=
+```
+
 ## Result
 <br>
 <img src="repo_assets/finglish_parrot_chat.jpg" alt="Alt text" width="600"/>
