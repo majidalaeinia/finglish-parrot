@@ -11,20 +11,7 @@ You can use docker to run the project:
 docker compose up -d
 ```
 
-## Example
-##### Request:
-```bash
-curl -XPOST --location 'http://localhost:8080/api/v1/slugify' \
---header 'Accept: application/json' \
---header 'Content-Type: application/json' \
---data '{
-    "message": "سلام چطوری؟"
-}'
-```
-##### Response:
-> HTTP Status Code: 200
-```json
-{
-    "slugified_message": "slam-chtory"
-}
-```
+## Result
+<br>
+<img src="repo_assets/finglish_parrot_chat.jpg" alt="Alt text" width="600"/>
+
