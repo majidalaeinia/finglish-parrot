@@ -112,4 +112,6 @@ return [
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
 
+    'divar_authentication' => env('DIVAR_AUTHENTICATION'),
+    'divar_x_api_key' => env('DIVAR_X_API_KEY'),
 ];
