@@ -18,33 +18,33 @@ class MessageController extends Controller
         $body = [
             "type" => "TEXT",
             "text_message" => $slugifiedText,
-            "buttons" => [
-                "rows" => [
-                    [
-                        "buttons" => [
-                            [
-                                "action" => [
-                                    "open_direct_link" => "https://google.com"
-                                ],
-                                "icon_name" => "REAL_STATE",
-                                "caption" => "متن دکمه"
-                            ],
-                            [
-                                "action" => [
-                                    "open_server_link" => [
-                                        "data" => [
-                                            "my_key_1" => "value",
-                                            "my_key_2" => "value2"
-                                        ]
-                                    ]
-                                ],
-                                "icon" => "HOME",
-                                "caption" => "متن دکمه"
-                            ]
-                        ]
-                    ]
-                ]
-            ]
+//            "buttons" => [
+//                "rows" => [
+//                    [
+//                        "buttons" => [
+//                            [
+//                                "action" => [
+//                                    "open_direct_link" => "https://google.com"
+//                                ],
+//                                "icon_name" => "REAL_STATE",
+//                                "caption" => "متن دکمه"
+//                            ],
+//                            [
+//                                "action" => [
+//                                    "open_server_link" => [
+//                                        "data" => [
+//                                            "my_key_1" => "value",
+//                                            "my_key_2" => "value2"
+//                                        ]
+//                                    ]
+//                                ],
+//                                "icon" => "HOME",
+//                                "caption" => "متن دکمه"
+//                            ]
+//                        ]
+//                    ]
+//                ]
+//            ]
         ];
 
         Log::info($chatText);
